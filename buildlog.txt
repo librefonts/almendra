@@ -1,0 +1,1345 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/almendra/METADATA.json /home/travis/build/fontdirectory/almendra/builds/build
+$ cp -a /home/travis/build/fontdirectory/almendra/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/almendra/builds/build
+$ cp -a /home/travis/build/fontdirectory/almendra/FONTLOG.txt /home/travis/build/fontdirectory/almendra/builds/build
+$ cp -a Almendra-Italic.ttf.ttx Almendra-BoldItalic.ttf.ttx Almendra-Bold.ttf.ttx Almendra-Regular.ttf.ttx src/Almendra-Regular.otf.ttx src/Almendra-BoldItalic.otf.ttx src/Almendra-Italic.otf.ttx src/Almendra-Bold.otf.ttx src/Almendra-BoldItalic-TTF.sfd src/Almendra-Italic-TTF.sfd src/Almendra-Bold-TTF.sfd src/Almendra-Regular-TTF.sfd Almendra-Italic.ttf.F_F_T_M_.ttx Almendra-Italic.ttf.G_S_U_B_.ttx Almendra-Italic.ttf._c_m_a_p.ttx Almendra-Italic.ttf._g_a_s_p.ttx Almendra-Italic.ttf.GlyphOrder.ttx Almendra-Italic.ttf._g_l_y_f.ttx Almendra-Italic.ttf._h_e_a_d.ttx Almendra-Italic.ttf._l_o_c_a.ttx Almendra-Italic.ttf.D_S_I_G_.ttx Almendra-Italic.ttf._p_o_s_t.ttx Almendra-Italic.ttf.G_P_O_S_.ttx Almendra-Italic.ttf._p_r_e_p.ttx Almendra-Italic.ttf.G_D_E_F_.ttx Almendra-Italic.ttf.O_S_2f_2.ttx Almendra-Italic.ttf._m_a_x_p.ttx Almendra-Italic.ttf._n_a_m_e.ttx Almendra-Italic.ttf._h_h_e_a.ttx Almendra-Italic.ttf._h_m_t_x.ttx Almendra-BoldItalic.ttf._p_r_e_p.ttx Almendra-BoldItalic.ttf._n_a_m_e.ttx Almendra-BoldItalic.ttf._g_l_y_f.ttx Almendra-BoldItalic.ttf.G_S_U_B_.ttx Almendra-BoldItalic.ttf.G_D_E_F_.ttx Almendra-BoldItalic.ttf.GlyphOrder.ttx Almendra-BoldItalic.ttf.F_F_T_M_.ttx Almendra-BoldItalic.ttf._h_e_a_d.ttx Almendra-BoldItalic.ttf.O_S_2f_2.ttx Almendra-BoldItalic.ttf.G_P_O_S_.ttx Almendra-BoldItalic.ttf.D_S_I_G_.ttx Almendra-BoldItalic.ttf._p_o_s_t.ttx Almendra-BoldItalic.ttf._m_a_x_p.ttx Almendra-BoldItalic.ttf._h_m_t_x.ttx Almendra-BoldItalic.ttf._h_h_e_a.ttx Almendra-BoldItalic.ttf._g_a_s_p.ttx Almendra-BoldItalic.ttf._l_o_c_a.ttx Almendra-BoldItalic.ttf._c_m_a_p.ttx Almendra-Bold.ttf.G_S_U_B_.ttx Almendra-Bold.ttf._g_l_y_f.ttx Almendra-Bold.ttf._p_r_e_p.ttx Almendra-Bold.ttf._p_o_s_t.ttx Almendra-Bold.ttf.GlyphOrder.ttx Almendra-Bold.ttf._g_a_s_p.ttx Almendra-Bold.ttf.G_P_O_S_.ttx Almendra-Bold.ttf.F_F_T_M_.ttx Almendra-Bold.ttf.G_D_E_F_.ttx Almendra-Bold.ttf.O_S_2f_2.ttx Almendra-Bold.ttf._m_a_x_p.ttx Almendra-Bold.ttf._h_e_a_d.ttx Almendra-Bold.ttf._c_m_a_p.ttx Almendra-Bold.ttf._n_a_m_e.ttx Almendra-Bold.ttf._l_o_c_a.ttx Almendra-Bold.ttf.D_S_I_G_.ttx Almendra-Bold.ttf._h_m_t_x.ttx Almendra-Bold.ttf._h_h_e_a.ttx Almendra-Regular.ttf._h_h_e_a.ttx Almendra-Regular.ttf._h_e_a_d.ttx Almendra-Regular.ttf.GlyphOrder.ttx Almendra-Regular.ttf._l_o_c_a.ttx Almendra-Regular.ttf._p_r_e_p.ttx Almendra-Regular.ttf._m_a_x_p.ttx Almendra-Regular.ttf._g_l_y_f.ttx Almendra-Regular.ttf.F_F_T_M_.ttx Almendra-Regular.ttf._h_m_t_x.ttx Almendra-Regular.ttf.G_P_O_S_.ttx Almendra-Regular.ttf._g_a_s_p.ttx Almendra-Regular.ttf._n_a_m_e.ttx Almendra-Regular.ttf.G_S_U_B_.ttx Almendra-Regular.ttf._p_o_s_t.ttx Almendra-Regular.ttf.O_S_2f_2.ttx Almendra-Regular.ttf._c_m_a_p.ttx Almendra-Regular.ttf.G_D_E_F_.ttx Almendra-Regular.ttf.D_S_I_G_.ttx src/Almendra-Regular.otf._n_a_m_e.ttx src/Almendra-Regular.otf.C_F_F_.ttx src/Almendra-Regular.otf._h_h_e_a.ttx src/Almendra-Regular.otf._m_a_x_p.ttx src/Almendra-Regular.otf.G_P_O_S_.ttx src/Almendra-Regular.otf._k_e_r_n.ttx src/Almendra-Regular.otf.G_S_U_B_.ttx src/Almendra-Regular.otf._h_e_a_d.ttx src/Almendra-Regular.otf._h_m_t_x.ttx src/Almendra-Regular.otf._c_m_a_p.ttx src/Almendra-Regular.otf.O_S_2f_2.ttx src/Almendra-Regular.otf._p_o_s_t.ttx src/Almendra-Regular.otf.GlyphOrder.ttx src/Almendra-BoldItalic.otf._n_a_m_e.ttx src/Almendra-BoldItalic.otf._h_e_a_d.ttx src/Almendra-BoldItalic.otf._h_h_e_a.ttx src/Almendra-BoldItalic.otf.C_F_F_.ttx src/Almendra-BoldItalic.otf._h_m_t_x.ttx src/Almendra-BoldItalic.otf.GlyphOrder.ttx src/Almendra-BoldItalic.otf.G_P_O_S_.ttx src/Almendra-BoldItalic.otf.O_S_2f_2.ttx src/Almendra-BoldItalic.otf._c_m_a_p.ttx src/Almendra-BoldItalic.otf._p_o_s_t.ttx src/Almendra-BoldItalic.otf._m_a_x_p.ttx src/Almendra-BoldItalic.otf.G_S_U_B_.ttx src/Almendra-BoldItalic.otf._k_e_r_n.ttx src/Almendra-Italic.otf.GlyphOrder.ttx src/Almendra-Italic.otf.O_S_2f_2.ttx src/Almendra-Italic.otf.C_F_F_.ttx src/Almendra-Italic.otf._h_h_e_a.ttx src/Almendra-Italic.otf._k_e_r_n.ttx src/Almendra-Italic.otf._h_e_a_d.ttx src/Almendra-Italic.otf._n_a_m_e.ttx src/Almendra-Italic.otf._h_m_t_x.ttx src/Almendra-Italic.otf.G_S_U_B_.ttx src/Almendra-Italic.otf.G_P_O_S_.ttx src/Almendra-Italic.otf._p_o_s_t.ttx src/Almendra-Italic.otf._m_a_x_p.ttx src/Almendra-Italic.otf._c_m_a_p.ttx src/Almendra-Bold.otf._c_m_a_p.ttx src/Almendra-Bold.otf.O_S_2f_2.ttx src/Almendra-Bold.otf._h_e_a_d.ttx src/Almendra-Bold.otf._m_a_x_p.ttx src/Almendra-Bold.otf.G_S_U_B_.ttx src/Almendra-Bold.otf.G_P_O_S_.ttx src/Almendra-Bold.otf._p_o_s_t.ttx src/Almendra-Bold.otf._k_e_r_n.ttx src/Almendra-Bold.otf.C_F_F_.ttx src/Almendra-Bold.otf._n_a_m_e.ttx src/Almendra-Bold.otf._h_m_t_x.ttx src/Almendra-Bold.otf._h_h_e_a.ttx src/Almendra-Bold.otf.GlyphOrder.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular.otf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic.ttf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic.otf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic.otf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold.otf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold.ttf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular.ttf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic-TTF.sfd /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic-TTF.sfd /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold-TTF.sfd /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular-TTF.sfd > fontaine.txt
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+pyfontaine error: Not a TrueType or OpenType font (bad sfntVersion)
+pyfontaine process has been failed
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx Almendra-Regular.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular.otf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Almendra-Italic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic.ttf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Almendra-BoldItalic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic.otf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Almendra-BoldItalic.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic.ttf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Almendra-Italic.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic.otf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Almendra-Bold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold.otf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Almendra-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold.ttf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx Almendra-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular.ttf.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream Almendra-BoldItalic-TTF.sfd
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Almendra-Italic-TTF.sfd
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Almendra-Bold-TTF.sfd
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+$ fontbakery-check.py upstream Almendra-Regular-TTF.sfd
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_has_rupee(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_A_a_glyph_instance(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_ended_ufo(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_folder(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_is_fsType_eq_1(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_requirements.UfoOpenTest.test_it_exists(): ERROR
+bakery_lint.tests.upstream.test_contour_count.TestContourCount.test_contour_count(): ERROR
+bakery_lint.tests.upstream.test_unicode_value_should_appear_only_once_per_font.UnicodeValueShouldAppearOnlyOnce.testUnicodeValue(): ERROR
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_familyname_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_fullfontname_less_than_64_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_consistof_allowed_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_postscriptname_less_than_30_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_stylename_less_than_32_chars(): OK
+bakery_lint.tests.upstream.test_check_ufo_fontfamily_recommendations.TestUFOFontFamilyNamingTest.test_weight_value_range_between_250_and_900(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/almendra/builds/build /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular.ttx /home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic.ttx
+$ fontbakery-build-font2ttf.py sources/Almendra-Italic.otf Almendra-Italic.ttf
+This font contains both a 'kern' table and a 'GPOS' table.
+  The 'kern' table will only be read if there is no 'kern' feature in 'GPOS'.
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf)
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold-TTF.sfd
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular-TTF.sfd
+Compiling "/home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Italic.ttx" to "/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.otf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'name' table...
+Parsing 'cmap' table...
+Parsing 'post' table...
+Parsing 'CFF ' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'hmtx' table...
+Parsing 'kern' table...
+Compiling "/home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Bold.ttx" to "/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-Regular.ttx" to "/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+Compiling "/home/travis/build/fontdirectory/almendra/builds/build/sources/Almendra-BoldItalic.ttx" to "/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'prep' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Parsing 'DSIG' table...
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.otf
+### Test Almendra-Italic.ttf
+$ fontbakery-check.py result Almendra-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): FAIL
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+Parameter              Almendra-Regular.ttf    Almendra-BoldItalic.ttf    Almendra-Italic.ttf    Almendra-Bold.ttf    
+ymax                   939                     908                        885                    906                  
+hhea.ascent            939                     939                        939                    939                  
+OS/2.sTypoAscender     939                     939                        939                    939                  
+OS/2.usWinAscent       939                     939                        939                    939                  
+ymin                   -227                    -251                       -219                   -251                 
+hhea.descent           -251                    -251                       -251                   -251                 
+OS/2.sTypoDescender    -251                    -251                       -251                   -251                 
+OS/2.usWinDescent      251                     251                        251                    251                  
+hhea.lineGap           0                       0                          0                      0                    
+OS/2.sTypoLineGap      0                       0                          0                      0                    
+hhea total             1190                    1190                       1190                   1190                 
+typo total             1190                    1190                       1190                   1190                 
+win total              1190                    1190                       1190                   1190                 
+UPM:Heights            1000:1166               1000:1159                  1000:1104              1000:1157            
+UPM:Heights %          116 %                   115 %                      110 %                  115 %                
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+### Optimize TTF Almendra-Italic.ttf
+$ ls -l 'Almendra-Italic.ttf'* # look at the size savings of that subset process
+Almendra-Italic.ttf.opt: 33304 bytes
+Almendra-Italic.ttf: 35284 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.opt /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+### Autohint TTFs (ttfautohint) Almendra-Italic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf '/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf: 33304 bytes
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.autohint.ttf: 48612 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.autohint.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+### Subset TTFs (pyftsubset) Almendra-Italic.ttf
+$ pyftsubset Almendra-Italic.latin
+$ pyftsubset Almendra-Italic.menu
+spaceWidth is    165
+nbspWidth is     165
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+### Test Almendra-Bold.ttf
+$ fontbakery-check.py result Almendra-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+### Optimize TTF Almendra-Bold.ttf
+$ ls -l 'Almendra-Bold.ttf'* # look at the size savings of that subset process
+Almendra-Bold.ttf.opt: 35032 bytes
+Almendra-Bold.ttf: 36764 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.opt /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+### Autohint TTFs (ttfautohint) Almendra-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf '/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf: 35032 bytes
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.autohint.ttf: 54992 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.autohint.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+### Subset TTFs (pyftsubset) Almendra-Bold.ttf
+$ pyftsubset Almendra-Bold.latin
+$ pyftsubset Almendra-Bold.menu
+spaceWidth is    180
+nbspWidth is     180
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+### Test Almendra-Regular.ttf
+$ fontbakery-check.py result Almendra-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named dbar is mapped to U+F019D.
+But its name indicates it should be mapped to U+0111.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+### Optimize TTF Almendra-Regular.ttf
+$ ls -l 'Almendra-Regular.ttf'* # look at the size savings of that subset process
+Almendra-Regular.ttf.opt: 65124 bytes
+Almendra-Regular.ttf: 68820 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.opt /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+### Autohint TTFs (ttfautohint) Almendra-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf '/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf: 65124 bytes
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.autohint.ttf: 97516 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.autohint.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+### Subset TTFs (pyftsubset) Almendra-Regular.ttf
+$ pyftsubset Almendra-Regular.latin
+$ pyftsubset Almendra-Regular.menu
+spaceWidth is    180
+nbspWidth is     180
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+### Test Almendra-BoldItalic.ttf
+$ fontbakery-check.py result Almendra-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+### Optimize TTF Almendra-BoldItalic.ttf
+$ ls -l 'Almendra-BoldItalic.ttf'* # look at the size savings of that subset process
+Almendra-BoldItalic.ttf.opt: 33768 bytes
+Almendra-BoldItalic.ttf: 35520 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.opt /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+### Autohint TTFs (ttfautohint) Almendra-BoldItalic.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf '/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf: 33768 bytes
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.autohint.ttf: 51292 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.autohint.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+### Subset TTFs (pyftsubset) Almendra-BoldItalic.ttf
+$ pyftsubset Almendra-BoldItalic.latin
+$ pyftsubset Almendra-BoldItalic.menu
+spaceWidth is    165
+nbspWidth is     165
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ fontbakery-build-font2ttf.py sources/Almendra-BoldItalic-TTF.sfd Almendra-BoldItalic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf)
+### Test Almendra-BoldItalic-TTF.ttf
+$ fontbakery-check.py result Almendra-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+Parameter              Almendra-Regular.ttf    Almendra-BoldItalic.ttf    Almendra-Italic.ttf    Almendra-BoldItalic-TTF.ttf    Almendra-Bold.ttf    
+ymax                   939                     908                        885                    908                            906                  
+hhea.ascent            939                     939                        939                    939                            939                  
+OS/2.sTypoAscender     939                     939                        939                    939                            939                  
+OS/2.usWinAscent       939                     939                        939                    939                            939                  
+ymin                   -227                    -251                       -219                   -251                           -251                 
+hhea.descent           -251                    -251                       -251                   -251                           -251                 
+OS/2.sTypoDescender    -251                    -251                       -251                   -251                           -251                 
+OS/2.usWinDescent      251                     251                        251                    251                            251                  
+hhea.lineGap           0                       0                          0                      0                              0                    
+OS/2.sTypoLineGap      0                       0                          0                      0                              0                    
+hhea total             1190                    1190                       1190                   1190                           1190                 
+typo total             1190                    1190                       1190                   1190                           1190                 
+win total              1190                    1190                       1190                   1190                           1190                 
+UPM:Heights            1000:1166               1000:1159                  1000:1104              1000:1159                      1000:1157            
+UPM:Heights %          116 %                   115 %                      110 %                  115 %                          115 %                
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+### Optimize TTF Almendra-BoldItalic-TTF.ttf
+$ ls -l 'Almendra-BoldItalic-TTF.ttf'* # look at the size savings of that subset process
+Almendra-BoldItalic-TTF.ttf.opt: 33528 bytes
+Almendra-BoldItalic-TTF.ttf: 35524 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.opt /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+### Autohint TTFs (ttfautohint) Almendra-BoldItalic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf '/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf: 33528 bytes
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.autohint.ttf: 51280 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.autohint.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+### Subset TTFs (pyftsubset) Almendra-BoldItalic-TTF.ttf
+$ pyftsubset Almendra-BoldItalic-TTF.latin
+$ pyftsubset Almendra-BoldItalic-TTF.menu
+spaceWidth is    165
+nbspWidth is     165
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ fontbakery-build-font2ttf.py sources/Almendra-Italic-TTF.sfd Almendra-Italic-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf)
+### Test Almendra-Italic-TTF.ttf
+$ fontbakery-check.py result Almendra-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+Parameter              Almendra-Regular.ttf    Almendra-BoldItalic.ttf    Almendra-Italic.ttf    Almendra-BoldItalic-TTF.ttf    Almendra-Italic-TTF.ttf    Almendra-Bold.ttf    
+ymax                   939                     908                        885                    908                            885                        906                  
+hhea.ascent            939                     939                        939                    939                            939                        939                  
+OS/2.sTypoAscender     939                     939                        939                    939                            939                        939                  
+OS/2.usWinAscent       939                     939                        939                    939                            939                        939                  
+ymin                   -227                    -251                       -219                   -251                           -219                       -251                 
+hhea.descent           -251                    -251                       -251                   -251                           -251                       -251                 
+OS/2.sTypoDescender    -251                    -251                       -251                   -251                           -251                       -251                 
+OS/2.usWinDescent      251                     251                        251                    251                            251                        251                  
+hhea.lineGap           0                       0                          0                      0                              0                          0                    
+OS/2.sTypoLineGap      0                       0                          0                      0                              0                          0                    
+hhea total             1190                    1190                       1190                   1190                           1190                       1190                 
+typo total             1190                    1190                       1190                   1190                           1190                       1190                 
+win total              1190                    1190                       1190                   1190                           1190                       1190                 
+UPM:Heights            1000:1166               1000:1159                  1000:1104              1000:1159                      1000:1104                  1000:1157            
+UPM:Heights %          116 %                   115 %                      110 %                  115 %                          110 %                      115 %                
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+### Optimize TTF Almendra-Italic-TTF.ttf
+$ ls -l 'Almendra-Italic-TTF.ttf'* # look at the size savings of that subset process
+Almendra-Italic-TTF.ttf.opt: 33392 bytes
+Almendra-Italic-TTF.ttf: 35376 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.opt /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+### Autohint TTFs (ttfautohint) Almendra-Italic-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf '/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf: 33392 bytes
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.autohint.ttf: 48808 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.autohint.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+### Subset TTFs (pyftsubset) Almendra-Italic-TTF.ttf
+$ pyftsubset Almendra-Italic-TTF.latin
+$ pyftsubset Almendra-Italic-TTF.menu
+spaceWidth is    165
+nbspWidth is     165
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ fontbakery-build-font2ttf.py sources/Almendra-Bold-TTF.sfd Almendra-Bold-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf)
+### Test Almendra-Bold-TTF.ttf
+$ fontbakery-check.py result Almendra-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+Parameter              Almendra-Regular.ttf    Almendra-BoldItalic.ttf    Almendra-Italic.ttf    Almendra-BoldItalic-TTF.ttf    Almendra-Bold-TTF.ttf    Almendra-Italic-TTF.ttf    Almendra-Bold.ttf    
+ymax                   939                     908                        885                    908                            906                      885                        906                  
+hhea.ascent            939                     939                        939                    939                            939                      939                        939                  
+OS/2.sTypoAscender     939                     939                        939                    939                            939                      939                        939                  
+OS/2.usWinAscent       939                     939                        939                    939                            939                      939                        939                  
+ymin                   -227                    -251                       -219                   -251                           -251                     -219                       -251                 
+hhea.descent           -251                    -251                       -251                   -251                           -251                     -251                       -251                 
+OS/2.sTypoDescender    -251                    -251                       -251                   -251                           -251                     -251                       -251                 
+OS/2.usWinDescent      251                     251                        251                    251                            251                      251                        251                  
+hhea.lineGap           0                       0                          0                      0                              0                        0                          0                    
+OS/2.sTypoLineGap      0                       0                          0                      0                              0                        0                          0                    
+hhea total             1190                    1190                       1190                   1190                           1190                     1190                       1190                 
+typo total             1190                    1190                       1190                   1190                           1190                     1190                       1190                 
+win total              1190                    1190                       1190                   1190                           1190                     1190                       1190                 
+UPM:Heights            1000:1166               1000:1159                  1000:1104              1000:1159                      1000:1157                1000:1104                  1000:1157            
+UPM:Heights %          116 %                   115 %                      110 %                  115 %                          115 %                    110 %                      115 %                
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+### Optimize TTF Almendra-Bold-TTF.ttf
+$ ls -l 'Almendra-Bold-TTF.ttf'* # look at the size savings of that subset process
+Almendra-Bold-TTF.ttf.opt: 34916 bytes
+Almendra-Bold-TTF.ttf: 36900 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf.opt /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+### Autohint TTFs (ttfautohint) Almendra-Bold-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf '/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf: 34916 bytes
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.autohint.ttf: 54844 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.autohint.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+### Subset TTFs (pyftsubset) Almendra-Bold-TTF.ttf
+$ pyftsubset Almendra-Bold-TTF.latin
+$ pyftsubset Almendra-Bold-TTF.menu
+spaceWidth is    180
+nbspWidth is     180
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+$ fontbakery-build-font2ttf.py sources/Almendra-Regular-TTF.sfd Almendra-Regular-TTF.ttf
+Success: Generated OpenType-TTF (/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf)
+### Test Almendra-Regular-TTF.ttf
+$ fontbakery-check.py result Almendra-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+The following table(s) in the font have been ignored by FontForge
+  Ignoring 'DSIG' digital signature table
+The glyph named dbar is mapped to U+F019D.
+But its name indicates it should be mapped to U+0111.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-BoldItalic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Italic-TTF.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Bold.ttf
+Parameter              Almendra-Regular.ttf    Almendra-BoldItalic.ttf    Almendra-Italic.ttf    Almendra-Regular-TTF.ttf    Almendra-BoldItalic-TTF.ttf    Almendra-Bold-TTF.ttf    Almendra-Italic-TTF.ttf    Almendra-Bold.ttf    
+ymax                   939                     908                        885                    939                         908                            906                      885                        906                  
+hhea.ascent            939                     939                        939                    939                         939                            939                      939                        939                  
+OS/2.sTypoAscender     939                     939                        939                    939                         939                            939                      939                        939                  
+OS/2.usWinAscent       939                     939                        939                    939                         939                            939                      939                        939                  
+ymin                   -227                    -251                       -219                   -227                        -251                           -251                     -219                       -251                 
+hhea.descent           -251                    -251                       -251                   -251                        -251                           -251                     -251                       -251                 
+OS/2.sTypoDescender    -251                    -251                       -251                   -251                        -251                           -251                     -251                       -251                 
+OS/2.usWinDescent      251                     251                        251                    251                         251                            251                      251                        251                  
+hhea.lineGap           0                       0                          0                      0                           0                              0                        0                          0                    
+OS/2.sTypoLineGap      0                       0                          0                      0                           0                              0                        0                          0                    
+hhea total             1190                    1190                       1190                   1190                        1190                           1190                     1190                       1190                 
+typo total             1190                    1190                       1190                   1190                        1190                           1190                     1190                       1190                 
+win total              1190                    1190                       1190                   1190                        1190                           1190                     1190                       1190                 
+UPM:Heights            1000:1166               1000:1159                  1000:1104              1000:1166                   1000:1159                      1000:1157                1000:1104                  1000:1157            
+UPM:Heights %          116 %                   115 %                      110 %                  116 %                       115 %                          115 %                    110 %                      115 %                
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf.fix /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): OK
+### Optimize TTF Almendra-Regular-TTF.ttf
+$ ls -l 'Almendra-Regular-TTF.ttf'* # look at the size savings of that subset process
+Almendra-Regular-TTF.ttf.opt: 64728 bytes
+Almendra-Regular-TTF.ttf: 68872 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf.opt /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+### Autohint TTFs (ttfautohint) Almendra-Regular-TTF.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf '/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf: 64728 bytes
+/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.autohint.ttf: 96936 bytes
+$ mv /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.autohint.ttf /home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+### Subset TTFs (pyftsubset) Almendra-Regular-TTF.ttf
+$ pyftsubset Almendra-Regular-TTF.latin
+$ pyftsubset Almendra-Regular-TTF.menu
+spaceWidth is    180
+nbspWidth is     180
+Nothing to do
+strippedname:/home/travis/build/fontdirectory/almendra/builds/build/Almendra-Regular-TTF.ttf
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/almendra/builds/build
+{} exists
+Designer's name from font is: Ana Sanfelippo
+Original size: 97516\nGzip size: 43919
+Family Name: Almendra
+PS Name: Almendra-Regular
+Full Name: Almendra
+Style: normal
+Weight: 400
+Filename: Almendra-Regular.ttf
+Copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+Family Name: Almendra
+PS Name: Almendra-BoldItalic
+Full Name: Almendra Bold Italic
+Style: italic
+Weight: 700
+Filename: Almendra-BoldItalic.ttf
+Copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+Family Name: Almendra
+PS Name: Almendra-Italic
+Full Name: Almendra Italic
+Style: italic
+Weight: 400
+Filename: Almendra-Italic.ttf
+Copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+Family Name: Almendra
+PS Name: Almendra-Regular
+Full Name: Almendra
+Style: normal
+Weight: 400
+Filename: Almendra-Regular-TTF.ttf
+Copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+Family Name: Almendra
+PS Name: Almendra-BoldItalic
+Full Name: Almendra Bold Italic
+Style: italic
+Weight: 700
+Filename: Almendra-BoldItalic-TTF.ttf
+Copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+Family Name: Almendra
+PS Name: Almendra-Bold
+Full Name: Almendra Bold
+Style: normal
+Weight: 700
+Filename: Almendra-Bold-TTF.ttf
+Copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+Family Name: Almendra
+PS Name: Almendra-Italic
+Full Name: Almendra Italic
+Style: italic
+Weight: 400
+Filename: Almendra-Italic-TTF.ttf
+Copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+Family Name: Almendra
+PS Name: Almendra-Bold
+Full Name: Almendra Bold
+Style: normal
+Weight: 700
+Filename: Almendra-Bold.ttf
+Copyright: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): OK
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): OK
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): FAIL
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): FAIL
+{
+  "name": "Almendra", 
+  "designer": "Ana Sanfelippo", 
+  "license": "OFL", 
+  "visibility": "External", 
+  "category": "Serif", 
+  "size": 28761, 
+  "fonts": [
+    {
+      "name": "Almendra", 
+      "postScriptName": "Almendra-Regular", 
+      "fullName": "Almendra", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Almendra-Regular.ttf", 
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }, 
+    {
+      "name": "Almendra", 
+      "postScriptName": "Almendra-BoldItalic", 
+      "fullName": "Almendra Bold Italic", 
+      "style": "italic", 
+      "weight": 700, 
+      "filename": "Almendra-BoldItalic.ttf", 
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }, 
+    {
+      "name": "Almendra", 
+      "postScriptName": "Almendra-Italic", 
+      "fullName": "Almendra Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "Almendra-Italic.ttf", 
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }, 
+    {
+      "name": "Almendra", 
+      "postScriptName": "Almendra-Regular", 
+      "fullName": "Almendra", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "Almendra-Regular-TTF.ttf", 
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }, 
+    {
+      "name": "Almendra", 
+      "postScriptName": "Almendra-BoldItalic", 
+      "fullName": "Almendra Bold Italic", 
+      "style": "italic", 
+      "weight": 700, 
+      "filename": "Almendra-BoldItalic-TTF.ttf", 
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }, 
+    {
+      "name": "Almendra", 
+      "postScriptName": "Almendra-Bold", 
+      "fullName": "Almendra Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Almendra-Bold-TTF.ttf", 
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }, 
+    {
+      "name": "Almendra", 
+      "postScriptName": "Almendra-Italic", 
+      "fullName": "Almendra Italic", 
+      "style": "italic", 
+      "weight": 400, 
+      "filename": "Almendra-Italic-TTF.ttf", 
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }, 
+    {
+      "name": "Almendra", 
+      "postScriptName": "Almendra-Bold", 
+      "fullName": "Almendra Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "Almendra-Bold.ttf", 
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2011-12-19"
+}

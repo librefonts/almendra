@@ -1,0 +1,8 @@
+commit: HEAD
+process_files: [Almendra-Italic.ttf.ttx, Almendra-BoldItalic.ttf.ttx, Almendra-Bold.ttf.ttx,
+  Almendra-Regular.ttf.ttx, src/Almendra-Regular.otf.ttx, src/Almendra-BoldItalic.otf.ttx,
+  src/Almendra-Italic.otf.ttx, src/Almendra-Bold.otf.ttx, src/Almendra-BoldItalic-TTF.sfd,
+  src/Almendra-Italic-TTF.sfd, src/Almendra-Bold-TTF.sfd, src/Almendra-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
